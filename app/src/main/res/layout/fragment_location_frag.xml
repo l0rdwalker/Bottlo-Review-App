@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="horizontal"
+
+    tools:context=".location_frag">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#E6E6E6"
+        android:textAlignment="center"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:background="#E6E6E6"
+        android:text="Address"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/PreviewImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:adjustViewBounds="true"
+        android:background="#E6E6E6"
+        android:src="@drawable/pat" />
+
+    <Button
+        android:id="@+id/MoreInfoBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="More Info"
+        />
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/Star1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#E6E6E6"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/Star2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#E6E6E6"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/Star3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#E6E6E6"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/Star4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#E6E6E6"
+            android:src="@drawable/star"/>
+
+        <ImageView
+            android:id="@+id/Star5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#E6E6E6"
+            android:src="@drawable/star" />
+    </TableRow>
+
+</TableLayout>
